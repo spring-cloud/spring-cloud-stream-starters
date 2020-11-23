@@ -12,7 +12,7 @@
 	<artifactId>spring-cloud-stream-docs</artifactId>
 	<name>spring-cloud-stream-docs</name>
 	<description>Spring Cloud Stream Docs</description>
-	<version>Horsham.SR10</version>
+	<version>Horsham.BUILD-SNAPSHOT</version>
 	<properties>
 		<main.basedir>${basedir}/..</main.basedir>
 		<spring-cloud-stream.version>3.0.10.RELEASE</spring-cloud-stream.version>
