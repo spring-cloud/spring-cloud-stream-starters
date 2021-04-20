@@ -5,12 +5,12 @@
   <parent>
     <groupId>org.springframework.cloud</groupId>
     <artifactId>spring-cloud-dependencies-parent</artifactId>
-    <version>2.3.3.RELEASE</version>
+    <version>2.2.2.RELEASE</version>
     <relativePath></relativePath>
   </parent>
   <groupId>org.springframework.cloud</groupId>
   <artifactId>spring-cloud-stream-dependencies</artifactId>
-  <version>Horsham.SR12</version>
+  <version>3.0.2.RELEASE</version>
   <packaging>pom</packaging>
   <name>spring-cloud-stream-dependencies</name>
   <description>Spring Cloud Stream Dependencies</description>
@@ -80,16 +80,16 @@
     </snapshotRepository>
     <site>
       <id>spring-docs</id>
-      <url>scp://static.springframework.org/var/www/domains/springframework.org/static/htdocs/spring-cloud/docs/spring-cloud-dependencies-parent/2.3.3.RELEASE/spring-cloud-stream-dependencies</url>
+      <url>scp://static.springframework.org/var/www/domains/springframework.org/static/htdocs/spring-cloud/docs/spring-cloud-dependencies-parent/2.2.2.RELEASE/spring-cloud-stream-dependencies</url>
     </site>
     <downloadUrl>https://github.com/spring-cloud</downloadUrl>
   </distributionManagement>
   <properties>
-    <spring-cloud-stream-dependencies.version>Horsham.SR12</spring-cloud-stream-dependencies.version>
-    <spring-cloud-stream-binder-rabbit.version>3.0.12.RELEASE</spring-cloud-stream-binder-rabbit.version>
-    <spring-cloud-stream-binder-kafka.version>3.0.12.RELEASE</spring-cloud-stream-binder-kafka.version>
-    <spring-cloud-schema-registry.version>1.0.12.RELEASE</spring-cloud-schema-registry.version>
-    <spring-cloud-stream.version>3.0.12.RELEASE</spring-cloud-stream.version>
+    <spring-cloud-stream-dependencies.version>Horsham.SR2</spring-cloud-stream-dependencies.version>
+    <spring-cloud-stream-binder-rabbit.version>3.0.2.RELEASE</spring-cloud-stream-binder-rabbit.version>
+    <spring-cloud-stream-binder-kafka.version>3.0.2.RELEASE</spring-cloud-stream-binder-kafka.version>
+    <spring-cloud-schema-registry.version>1.0.2.RELEASE</spring-cloud-schema-registry.version>
+    <spring-cloud-stream.version>3.0.2.RELEASE</spring-cloud-stream.version>
   </properties>
   <dependencyManagement>
     <dependencies>
